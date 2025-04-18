@@ -1,0 +1,75 @@
+{
+  "UI":{},
+
+  "developer": {
+      "name": "Luis Llancari vicerrel",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnBlJnZ-LhTOxo9vNyLgL75HSdbpvLfTweGg&s",
+      "description": "Soy un buen programador",
+      "location": "Ica - Perú",
+      "technologies": ["Python", "JavaScript", "PHP", "Mysql", "PostgresSQL", "HTML", "Css", "Django", "Angular", "FastAPI"],
+      "soft_skil": ["Responsable", "trabajo en equipo", "paciente"],
+      "social_media": {
+        "linkedin": "https://www.linkedin.com/in/luis-llancari-vicerrel/",
+        "github": "https://github.com/LuisLlancari",
+        "gmail": "miguel.llancari12@gmail.com"
+      }
+  },
+  
+  "projects": [
+    {
+      "title":"Sistema de Autentificacion",
+      "image": "",
+      "description": "Sistema creado usando el framework de django",
+      "technologies": ["Python", "Django", "DjangoRestFramework"],
+      "repository": "https://github.com/LuisLlancari/User_authentication_system"
+    },
+    {
+      "title":"",
+      "image": "",
+      "description": "",
+      "technologies": [],
+      "repository": ""
+    }
+  ],
+
+  "experience": [
+    {
+      "company_name": "Empresa Falcol Technologi",
+      "role": "Freelance Fullstack - PHP ",
+      "time_worked" : "junio-2024 - Agosto-2024",
+      "description": "Participe del desarrollo de una aplicacion web",
+      "location": "Ica - Perú"
+    },
+    {
+      "company_name": "",
+      "role": "Freelance Fullstack - PHP ",
+      "time_worked" : "junio-2024 - Agosto-2024",
+      "description": "Participe del desarrollo de p",
+      "location": "Ica - Perú"
+    }
+  ],
+
+  "course": {
+    "studies":[
+      {
+        "institute":"SENATI",
+        "study_date": "2021 junio",
+        "profession": "Ingenieria de Software con Inteligencia aritificial",
+        "diploma_link": "www.google.com"
+      }
+    ],
+
+    "course": [
+      {
+        "institute": "Platzi",
+        "study_date": "Agosto 2024",
+        "course_name": "Pytho avanzado",
+        "diploma_link": "www.google.com"
+      }
+
+    ]
+
+  }
+}
+
+

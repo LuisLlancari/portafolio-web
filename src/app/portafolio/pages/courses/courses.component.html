@@ -1,1 +1,22 @@
-<p>courses works!</p>,
+<div class="w-full h-full border-3 border-red-400 flex items-center justify-center">
+  <div class="w-[70%] h-full flex flex-col border-3 border-black-300">
+    <div>
+      <h1>Estudios</h1>
+      <div>
+        @for (estudy of estudies; track $index) {
+          <app-studie-item [study]="estudy"/>
+        }
+    
+      </div>
+      <h1>curso</h1>
+      <div>
+        @for (course of courses ; track $index) {
+          <app-course-item [course]="course"/>
+        }
+      </div>
+    </div>
+    
+
+  </div>
+</div>
+

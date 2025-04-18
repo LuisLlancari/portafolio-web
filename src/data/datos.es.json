@@ -2,72 +2,74 @@
   "UI":{},
 
   "developer": {
-    "name": "Luis Llancari vicerrel",
-    "description": "Soy un buen programador",
-    "location": "Ica - Perú",
-    "technologies": ["Python", "JavaScript", "PHP", "Mysql", "PostgresSQL", "HTML", "Css", "Django", "Angular", "FastAPI"],
-    "soft_skil": ["Responsable", "trabajo en equipo", "paciente"],
-    "social_media": {
-      "linkedin": "www.linkedin.com/in/luis-llancari-vicerrel",
-      "github": "https://github.com/LuisLlancari",
-      "gmail": "miguel.llancari12@gmail.com"
-    }
+      "name": "Luis Llancari vicerrel",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnBlJnZ-LhTOxo9vNyLgL75HSdbpvLfTweGg&s",
+      "description": "Soy un buen programador",
+      "location": "Ica - Perú",
+      "technologies": ["Python", "JavaScript", "PHP", "Mysql", "PostgresSQL", "HTML", "Css", "Django", "Angular", "FastAPI"],
+      "soft_skil": ["Responsable", "trabajo en equipo", "paciente"],
+      "social_media": {
+        "linkedin": "www.linkedin.com/in/luis-llancari-vicerrel",
+        "github": "https://github.com/LuisLlancari",
+        "gmail": "miguel.llancari12@gmail.com"
+      }
   },
   
-  "projects": {
-    "project1":{
+  "projects": [
+    {
       "title":"Sistema de Autentificacion",
       "image": "",
       "description": "Sistema creado usando el framework de django",
       "technologies": ["Python", "Django", "DjangoRestFramework"],
       "repository": "https://github.com/LuisLlancari/User_authentication_system"
     },
-    "project2":{
+    {
       "title":"",
       "image": "",
       "description": "",
       "technologies": [],
       "repository": ""
     }
-  },
+  ],
 
-  "experience": {
-    "exp1": {
+  "experience": [
+    {
       "company_name": "Empresa Falcol Technologi",
       "role": "Freelance Fullstack - PHP ",
       "time_worked" : "junio-2024 - Agosto-2024",
       "description": "Participe del desarrollo de una aplicacion web",
       "location": "Ica - Perú"
     },
-    "exp2": {
+    {
       "company_name": "",
       "role": "Freelance Fullstack - PHP ",
       "time_worked" : "junio-2024 - Agosto-2024",
       "description": "Participe del desarrollo de p",
       "location": "Ica - Perú"
     }
-  },
+  ],
 
   "course": {
-    "studies":{
-      "studi1":{
+    "studies":[
+      {
         "institute":"",
         "study_date": "",
         "profession": "",
         "diploma_link": ""
       }
+    ],
 
-    },
-
-    "course_list": {
-      "course1":{
+    "course": [
+      {
         "institute": "",
         "study_date": "",
         "course_name": "",
         "diploma_link": ""
       }
 
-    }
+    ]
 
   }
 }
+
+

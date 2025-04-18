@@ -1,0 +1,25 @@
+<!-- contenedor -->
+<div class="w-full border-3 border-blue-300 my-3 flex flex-col">
+  <div class="items-center align-middle">
+    <!-- titulo -->
+     <h1 class="items-center align-middle border-2 border-white-200">{{project()?.title}}</h1>
+  </div>
+  <div class="flex">
+    <!-- contendor de info -->
+     <div class="w-1/2">
+      <!-- izq | descriocion y tecnologias -->
+       <p>{{project()?.description}}</p>
+       <ul class="flex">
+        @for (tecno of project()?.technologies; track $index) {
+          <li class="mx-2">{{ tecno }}</li>
+        }
+      </ul>
+     </div>
+
+     <div class="w-1/2">
+      <!-- der | imagen y repositorios -->
+       <img [src]="project()?.image" alt="">
+       <a [href]="project()?.repository">REPOSITorio</a>
+     </div>
+  </div>
+</div>

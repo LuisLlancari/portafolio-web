@@ -1,9 +1,15 @@
-<div class="">  
-  <div class="">
-      <app-nav-bar/>
-      <div class="bg-red-600 ">
-        <router-outlet/>
-      </div>
+<div class="w-screen h-screen box-border flex flex-col">
 
+  <!-- nav bar -->
+  <div class="w-full">
+    <app-nav-bar/>
   </div>
+
+  <!-- info -->
+  <div class="flex-1 overflow-auto">
+
+    <router-outlet/>
+    
+  </div>
+
 </div>

@@ -1,0 +1,20 @@
+<!-- contenedor -->
+<div class="border-3 border-black-300 my-3 flex flex-col">
+  <div class="flex">
+    <!-- car, empre -->
+    <div class="w-1/2">
+      <p>{{experiencie()?.company_name}}</p>
+      <p>{{experiencie()?.role}}</p>
+    </div>
+    <!-- tiem, ubi -->
+     <div class="w-1/2">
+      <p>{{experiencie()?.time_worked}}</p>
+      <p>{{experiencie()?.location}}</p>
+     </div>
+  </div>
+  <div>
+    <!-- desc -->
+     {{experiencie()?.description}}
+  </div>
+
+</div>

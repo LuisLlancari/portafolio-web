@@ -1,26 +1,55 @@
-<!-- caja -->
-<div class="py-5">
-  <!-- datos -->
-  <div>
-    <!-- foto -->
-    <div>
-      <img src="#" alt="">
+<div class="w-full h-full flex items-center justify-center">
+
+  <div class="w-[70%] h-full flex flex-col">
+
+    <!-- contendor horizontal -->
+    <div class="h-[60%] border-3 border-black-400 flex">
+
+      <div class="w-[30%] h-full flex items-center justify-center">
+        <img [src]="developer?.photo" alt="">
+      </div>
+  
+      <div class="w-[70%] h-full flex flex-col ">
+
+        <div>
+          <h1 class="text-4xl text-center">{{ developer?.name}}</h1>
+        </div>
+
+        <div class="flex justify-center">
+          <a [href]="developer?.social_media?.github" class="mx-2" target="_blank"><fa-icon [icon]="GithubIcon" class="mx-1"/>Git hub</a>
+          <a [href]="developer?.social_media?.linkedin" class="mx-2" target="_blank"><fa-icon [icon]="LinkedinIcon" class="mx-1"/>Linkedin</a>
+          <p class="mx-2"><fa-icon [icon]="gmailIcon" class="mx-1"/>{{developer?.social_media?.gmail}}</p>
+          <a [href]="developer?.social_media?.linkedin" class="mx-2" target="_blank"><fa-icon [icon]="LinkedinIcon" class="mx-1"/>CV</a>
+        </div>
+
+        <div>
+          <p class="border-3 border-violet-200 text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex delectus officia 
+            atque dolores distinctio esse reprehenderit iure maxime, veniam sed beatae eos dolor 
+            quam libero animi ea sint ad suscipit!
+
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit cupiditate repellendus quos 
+            obcaecati quisquam porro rerum iste reiciendis ex enim qui veritatis quia id a ad, doloremque,
+             vero maxime! Sint.
+          
+          </p>
+          <!-- <p class="border-3 border-violet-200 text-center">{{developer?.description}}</p> -->
+        </div>
+
+      </div>
     </div>
-     <!-- datos -->
-    <div>
-      <div>
-        <h1>Nombre</h1>
-      </div>
-      <div>
-        <h3>Redes</h3>
-      </div>
-      <div>
-        <h3>descripcion</h3>
-      </div>
+  
+    <div class="h-[40%] flex-1">
+      <p>tecnologias</p>
+      <ul class="flex">
+        @for (tecno of developer?.technologies; track $index) {
+          <li class="mx-3">{{ tecno }}</li>
+        }
+      </ul>
     </div>
+
   </div>
-  <!-- tecnologias -->
-  <div>
-    <p>tecnologias</p>
-  </div>
+
 </div>
+
+

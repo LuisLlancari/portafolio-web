@@ -19,7 +19,7 @@ export const routes: Routes = [
       {
         path:'experiencie',
         loadComponent: ()=>
-          import('./portafolio/pages/experiencie/experiencie.component')
+          import('./portafolio/pages/experience/experience.component')
       },
       {
         path:'courses',
